@@ -1,0 +1,30 @@
+{
+  "name": "urlregexp",
+  "version": "1.0.0",
+  "description": "Regular expression to match URLs in a body of plain text.",
+  "license": "MIT",
+  "tags": [
+    "regular expression",
+    "regexp",
+    "regex",
+    "url",
+    "match",
+    "loose",
+    "liberal"
+  ],  
+  "author": "Marco Aurelio",
+  "scripts": {
+    "prepublish": "node build.js"
+  },
+  "devDependencies": {
+    "tlds": "^1.0.0",
+    "xregexp": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webmodules/urlregexp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webmodules/urlregexp/issues"
+  }
+}    
