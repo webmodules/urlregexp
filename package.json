@@ -1,6 +1,6 @@
 {
   "name": "urlregexp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Regular expression to match URLs in a body of plain text.",
   "license": "MIT",
   "tags": [
