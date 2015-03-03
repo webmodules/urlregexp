@@ -17,7 +17,7 @@
     "prepublish": "node build.js"
   },
   "devDependencies": {
-    "tlds": "^1.0.0",
+    "tlds": "1.30.0",
     "xregexp": "^2.0.0"
   },
   "repository": {
