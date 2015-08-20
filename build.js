@@ -20,6 +20,6 @@ var source = template
                 .replace(/\(tlds\)/g, sortedTLDs.join('|'))
                 .replace(/\(alphabetic\)/g, alphabetic.source);
 
-var generated = new RegExp(source, 'g');
+var generated = new RegExp(source, 'gi');
 
 fs.writeFileSync(__dirname + '/index.js', 'module.exports = ' + generated + ';');
